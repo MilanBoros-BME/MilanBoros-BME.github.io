@@ -1,1 +1,1 @@
-# MilanbBoros-BME.github.io
+# Személyes weboldal
