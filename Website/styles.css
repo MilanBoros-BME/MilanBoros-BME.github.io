@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f7; /* Light grey background */
+    background-color: #91a893; /* Light grey background */
     color: #333;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #ffffff; /* White background */
+    background-color: #fffffff3; /* White background */
     color: #333;
     padding: 20px 40px; /* Adjust padding for a sleek look */
     text-align: left; /* Align text to the left */
@@ -38,7 +38,7 @@ header p {
 
 main {
     width: 60%; /* Adjust width as needed */
-    background-color: #ffffff; /* White background */
+    background-color: #ffffffd5; /* White background */
     padding: 40px;
     border-radius: 16px; /* Softer border radius */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -48,6 +48,7 @@ main {
     align-items: flex-start; /* Align to the left */
     margin-top: 120px; /* Adjust this value as needed */
     margin-left: 20px; /* Add left margin */
+    padding-bottom: 100px;
 }
 
 section {
@@ -57,7 +58,7 @@ section {
 
 h2 {
     color: #333; /* Dark text */
-    border-bottom: 2px solid #0078d7; /* Accent color border */
+    border-bottom: 2px solid #000000; /* Accent color border */
     padding-bottom: 10px;
 }
 
@@ -71,10 +72,10 @@ li {
 }
 
 footer {
-    background-color: #ffffff; /* White background */
-    color: #333;
+    background-color: #ffffffc5; /* White background */
+    color: #333;    
     text-align: left; /* Align text to the left */
-    padding: 20px 40px; /* Adjust padding */
+    padding: 10px; /* Adjust padding */
     width: 100%; /* Full width */
     position: fixed;
     bottom: 0; /* Align to the bottom */
@@ -103,7 +104,7 @@ img {
     position: fixed;
     top: 50px; /* Adjust position as needed */
     right: 20px; /* Adjust position as needed */
-    background-color: #ffffff; /* White background */
+    background-color: #ffffffbe; /* White background */
     color: #333; /* Dark text */
     padding: 20px;
     border-radius: 8px;
@@ -122,7 +123,7 @@ img {
 }
 
 #floating-box a {
-    color: #0078d7; /* Accent color */
+    color: #000000; /* Accent color */
     text-decoration: none;
 }
 
@@ -134,7 +135,7 @@ img {
     position: fixed;
     bottom: 20px; /* Adjust position as needed */
     right: 20px; /* Adjust position as needed */
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff5d; /* White background */
     color: #333; /* Dark text */
     padding: 20px;
     border-radius: 8px;
@@ -146,8 +147,8 @@ img {
 
 #random-user-box img {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     margin-bottom: 10px;
 }
