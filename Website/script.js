@@ -16,8 +16,8 @@ function displayUserInfo(user) {
     const userInfoDiv = document.getElementById('user-info');
     userInfoDiv.innerHTML = `
         <img src="${user.picture.large}" alt="User Picture">
-        <p><strong>Név:</strong> ${user.name.first} ${user.name.last}</p>
+        <p><strong>Name:</strong> ${user.name.first} ${user.name.last}</p>
         <p><strong>Email:</strong> ${user.email}</p>
-        <p><strong>Hely:</strong> ${user.location.city}, ${user.location.country}</p>
+        <p><strong>Location:</strong> ${user.location.city}, ${user.location.country}</p>
     `;
 }

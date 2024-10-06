@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Professional Profile</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,13 +12,13 @@
         <p>Egyetemista</p>
     </header>
     <main>
-        <section>
+        <section id="about">
             <h2>Rólam</h2>
-            <img src="path/to/your/photo.jpg" alt="Profile Picture">
+            <img src="C:\Users\boros\OneDrive\Documents\Github\MilanbBoros-BME.github.io\Website\Photos\Profilepic.jpeg" alt="Profile Picture" class="profile-picture">
             <p>20 éves egyetemista vagyok. Jelenleg a Budapest műszaki- és gazdaságtudományi egyetemén tanulok energetikai szakon.</p>
         </section>
-        <section>
-            <h2>Experience</h2>
+        <section id="experience">
+            <h2>Tapasztalataim</h2>
             <ul>
                 <li>
                     <h3>Job Title 1</h3>
@@ -32,7 +32,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section id="education">
             <h2>Képzettségek</h2>
             <ul>
                 <li>
@@ -42,7 +42,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section id="skills">
             <h2>Képességeim</h2>
             <ul>
                 <li>Skill 1</li>
@@ -54,12 +54,19 @@
     <footer>
         <p>Elérhetőség: milanboros@edu.bme.hu</p>
     </footer>
+    <div id="floating-box">
+        <ul>
+            <li><a href="#about">Rólam</a></li>
+            <li><a href="#experience">Tapasztalataim</a></li>
+            <li><a href="#education">Képzettségek</a></li>
+            <li><a href="#skills">Képességeim</a></li>
+        </ul>
+    </div>
+    <div id="random-user-box">
+        <div id="user-info">
+            <!-- User information will be displayed here -->
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
-<section id="random-user">
-    <h2>Random User</h2>
-    <div id="user-info">
-        <!-- User information will be displayed here -->
-    </div>
-</section>
 </html>
