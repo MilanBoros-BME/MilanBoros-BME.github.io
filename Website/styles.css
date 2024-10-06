@@ -79,6 +79,24 @@ footer {
     bottom: 0;
     z-index: 1000; /* Ensure it stays on top */
 }
+#random-user {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#random-user img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#random-user p {
+    margin: 5px 0;
+}
+
 
 img {
     float: right;
