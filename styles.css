@@ -136,6 +136,7 @@ img {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     z-index: 1000; /* Ensure it stays on top */
+    
 }
 
 #floating-box ul {
@@ -181,4 +182,17 @@ img {
 
 #random-user-box p {
     margin: 5px 0;
+}
+@media (max-width: 768px) {
+    #floating-box {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    #random-user-box {
+        bottom: 10px; /* Adjust position as needed */
+        right: 10px; /* Adjust position as needed */
+        width: 200px; /* Adjust width as needed */
+        padding: 10px; /* Adjust padding as needed */
+    }
 }
